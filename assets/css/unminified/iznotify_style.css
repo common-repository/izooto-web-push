@@ -1,0 +1,86 @@
+#iz_notify h2 span {
+	font-size: 18px;
+}
+#iz_notify label, #iz_notify select {
+	font-size: 15px;
+}
+.iz-form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.iz-form-textarea {
+	height: auto;
+}
+.custom_content_save {
+    background-color: #0085ba;
+    border-radius: 3px;
+    border-color: #21658c;
+    padding: 0 12px 2px;
+    width: 70px;
+    line-height: 32px;
+    box-shadow: inset 0 -1px 0 #00648c;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #005d82, 1px 0 1px #005d82, 0 1px 1px #005d82, -1px 0 1px #005d82;
+}
+
+.tooltip_svg_icon {
+  position: relative;
+  display: none;
+}
+
+.tooltip_svg_icon .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -44px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip_svg_icon .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 23%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip_svg_icon:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.svg_icon_title {
+    display: flex;
+    align-items: center;
+}
+
+.site-title-msg {
+  color: #ff5050;
+}
